@@ -7,6 +7,8 @@ using namespace std;
 /* 첫 번째는 다른 배열에 선택적으로 채워 넣는 not in-place 방식*/
 /* 두 번째는 SWAP을 이용하여 자신의 배열에 그대로 넣는 in-place 방식*/
 
+/* 선택 정렬의 시간 복잡도는 O(N^2) */
+
 void printArray(int arr[]) {
 	for (int i = 0; i < 10; i++)
 		cout << arr[i] << " ";
