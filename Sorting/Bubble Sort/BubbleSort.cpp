@@ -3,40 +3,14 @@
 
 using namespace std;
 
-/* Selection Sort(선택정렬)은 반복문 돌면서 */
-/* 배열중에서 가장 작은 숫자 골라서 맨 앞으로 보내기*/
-/* Selection Sort(선택정렬)에는 두 가지 방법이 있다. */
-/* 첫 번째는 다른 배열에 선택적으로 채워 넣는 not in-place 방식*/
-/* 두 번째는 SWAP을 이용하여 자신의 배열에 그대로 넣는 in-place 방식*/
-
-/* 선택 정렬의 시간 복잡도는 O(N^2) */
+/* Bubble Sort(버블정렬)은 간단하다. */
+/* 반복문 돌면서 두 개씩 비교하는데 큰 숫자가 앞에 있다면 */
+/* 바로 뒤의 숫자와 swap 해준다. */
 
 void printArray(int arr[]) {
 	for (int i = 0; i < 10; i++)
 		cout << arr[i] << " ";
 	cout << "\n";
-}
-
-/* 다른 1차원 배열에 채우면서 소팅 */
-void selectionSort1(int arr[]) {
-	int tempArr[10];
-	int min;
-	int index;
-
-	for (int i = 0; i < 10; i++) {
-		min = INF;
-		for (int j = 0; j < 10; j++) {
-			if (arr[j] < min) {
-				min = arr[j];
-				index = j;
-			}
-		}
-		tempArr[i] = min;
-		arr[index] = INF;
-	}
-
-	printArray(tempArr);
-
 }
 
 void swap(int* a, int* b) {
@@ -50,7 +24,7 @@ void swap(int* a, int* b) {
 /* 자기 배열의 내부에서 소팅 */
 void selectionSort2(int arr[]) {
 	int min;
-	int index=0;
+	int index = 0;
 
 	for (int i = 0; i < 10; i++) {
 		min = INF;
