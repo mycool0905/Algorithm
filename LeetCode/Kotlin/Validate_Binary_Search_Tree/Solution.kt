@@ -26,12 +26,12 @@ class Solution {
         inOrder(cur.right)
     }
 
-    private fun recursive(cur: TreeNode?, min: Long, max: Long): Boolean{
+    private fun devideAndConquer(cur: TreeNode?, min: Long, max: Long): Boolean{
         if(cur == null) return true
 
         if(cur.`val` < min || cur.`val` > max) return false
 
-        return recursive(cur.left, min, cur.`val`.toLong()-1) && recursive(cur.right, cur.`val`.toLong()+1, max)
+        return devideAndConquer(cur.left, min, cur.`val`.toLong()-1) && devideAndConquer(cur.right, cur.`val`.toLong()+1, max)
     }
 }
 
