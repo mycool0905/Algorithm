@@ -1,5 +1,6 @@
 package Boats_to_Save_People
 
+// Boats to Save People
 // URI: https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/580/week-2-january-8th-january-14th/3602/
 
 class Solution {
