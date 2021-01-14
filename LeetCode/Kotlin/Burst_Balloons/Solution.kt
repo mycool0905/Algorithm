@@ -1,6 +1,6 @@
 package Burst_Balloons
 
-// Leet Code Solutions added
+// Burst Balloons
 // URI: https://leetcode.com/explore/featured/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3564/
 // ref: http://easyleetcode.blogspot.com/2016/02/leetcode-312-burst-balloons.html
 
