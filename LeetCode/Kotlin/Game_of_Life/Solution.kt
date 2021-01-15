@@ -1,5 +1,6 @@
 package Game_of_Life
 
+// Game of Life
 // URI: https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/573/week-5-december-29th-december-31st/3586/
 
 class Solution {
