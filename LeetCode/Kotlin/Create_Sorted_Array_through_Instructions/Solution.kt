@@ -1,5 +1,6 @@
 package Create_Sorted_Array_through_Instructions
 
+// Create Sorted Array through Instructions
 // URI: https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/580/week-2-january-8th-january-14th/3599/
 
 import kotlin.math.pow
