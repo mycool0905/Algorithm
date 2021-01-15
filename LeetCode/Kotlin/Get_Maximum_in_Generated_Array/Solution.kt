@@ -1,5 +1,6 @@
 package Get_Maximum_in_Generated_Array
 
+// Get Maximum in Generated Array
 // URI: https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/581/week-3-january-15th-january-21st/3605/
 
 class Solution {
