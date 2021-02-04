@@ -1,5 +1,6 @@
 package Linked_List_Random_Node
 
+// Linked List Random Node
 // URI: https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/
 
 import kotlin.random.Random
