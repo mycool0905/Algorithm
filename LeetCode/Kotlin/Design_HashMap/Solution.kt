@@ -34,7 +34,7 @@ class MyHashMap() {
     fun remove(key: Int) {
         val hashIndex = getHashIndex(key)
         val indexOfFirst = hashArray[hashIndex].indexOfFirst { it.key == key }
-        if(indexOfFirst != -1){
+        if (indexOfFirst != -1) {
             hashArray[hashIndex].removeAt(indexOfFirst)
         }
     }
